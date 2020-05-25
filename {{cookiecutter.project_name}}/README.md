@@ -36,7 +36,7 @@
     │
     ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
     ├── [project_name]     <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
+    │   ├── __init__.py    <- Makes this a Python package
     │   │
     │   ├── data           <- Scripts to download or generate data
     │   │   └── make_dataset.py
