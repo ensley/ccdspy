@@ -34,7 +34,8 @@
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
     │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
+    ├── setup.py           <- makes project pip installable (pip install -e .) so source code
+    │                         can be imported
     ├── [project_name]     <- Source code for use in this project.
     │   ├── __init__.py    <- Makes this a Python package
     │   │
