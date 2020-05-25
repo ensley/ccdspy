@@ -1,4 +1,4 @@
-\{\{cookiecutter.project\_name\}\} package
+{{cookiecutter.project_name}} package
 ==========================================
 
 Subpackages

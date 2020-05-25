@@ -1,4 +1,4 @@
-\{\{cookiecutter.project\_name\}\}.visualization package
+{{cookiecutter.project_name}}.visualization package
 ========================================================
 
 Module contents

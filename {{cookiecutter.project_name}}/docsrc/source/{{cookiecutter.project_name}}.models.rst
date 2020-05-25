@@ -1,4 +1,4 @@
-\{\{cookiecutter.project\_name\}\}.models package
+{{cookiecutter.project_name}}.models package
 =================================================
 
 Module contents

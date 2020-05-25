@@ -1,4 +1,4 @@
-\{\{cookiecutter.project\_name\}\}.features package
+{{cookiecutter.project_name}}.features package
 ===================================================
 
 Module contents

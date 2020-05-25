@@ -22,10 +22,13 @@ githooks:
 	@echo "Done."
 
 ## Build documentation and copy it to the docs folder
-docs: $(SPHINX_DIR)/Makefile
+docs: $(SPHINX_DIR)/source
 	@echo "Making documentation..."
 	@(cd $(SPHINX_DIR) && make github)
 	@echo "Done."
+
+$(SPHINX_DIR)/source: $(SPHINX_DIR)/Makefile
+	@sphinx-apidoc -o source/ ../$(PROJECT_NAME)
 
 ## Delete all compiled Python files
 clean:

@@ -1,4 +1,4 @@
-\{\{cookiecutter.project\_name\}\}.data package
+{{cookiecutter.project_name}}.data package
 ===============================================
 
 Module contents
